@@ -6,7 +6,6 @@ def busca_binaria(item, lista):
     
     while primeiro_elemento <= ultimo_elemento:
         meio = (primeiro_elemento + ultimo_elemento) // 2
-        print(primeiro_elemento, ultimo_elemento, meio) #Acompanhar estados das variáveis
         if lista[meio] == item:
             return True
         elif lista[meio] < item:
@@ -16,15 +15,14 @@ def busca_binaria(item, lista):
             ultimo_elemento = meio - 1
     return False
            
-
-resultado = busca_binaria(2121, [1, 5, 8, 9, 19, 22, 28, 29])
+resultado = busca_binaria(item, [lista])
 
 if resultado:
     print("O elemento está na lista")
 else:
     print("O elemento NÃO está na lista")           
 
-print(busca_binaria(2121, [1, 5, 8, 9, 19, 22, 28, 29]))
+print(busca_binaria(item, [lista]))
 
 
         

@@ -44,7 +44,7 @@ Para executar o algoritmo, execute o seguinte comando no terminal:
 ```bash
 python busca_binaria.py
 ```
-E então,
+E então, nas linhas 18 e 25, mude os parâmetros da função para o elemento que você deseja buscar e a lista em que deseja buscar esse elemento. Após isso, inicie o programa.
 
 
 # Autor
