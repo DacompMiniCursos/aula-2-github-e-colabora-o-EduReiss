@@ -56,12 +56,13 @@ Desenvolvido pelo calouro Eduardo dos Reis Azevedo como parte do minicurso de Gi
 ## 🎫 Fase 5: Planejamento da Issue
 *Draft da primeira Issue que você abrirá no GitHub.*
 
-**Título da Issue:** `feat: Implementar busca binária recursiva`
+**Título da Issue:** `feat: Implementar função de input`
 
 **Descrição da Issue:**
 ```text
-Atualmente, o algoritmo de busca binária está implementado de forma iterativa (usando laços de repetição). 
+Atualmente, o algoritmo de busca binária está implementado de forma primitiva, sem interação do usuário com o terminal
 
 **Objetivo:**
-- Adicionar uma nova versão do algoritmo utilizando recursividade para fins didáticos.
-- Atualizar o README.md explicando a diferença de performance e uso de mem
+- Adicionar uma nova versão do algoritmo que permita que o usuário inpute o elemento que deseja buscar e a lista em que deseja buscar tal elemento
+- Adicionar nessa nova versão, um código que organize essa lista de forma automática
+- Atualizar o README.md explicando as mudanças e a importância delas
