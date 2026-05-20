@@ -49,7 +49,7 @@ E então, nas linhas 18 e 25, mude os parâmetros da função para o elemento qu
 
 # Autor
 
-Desenvolvido pelo calouro Eduardo dos Reis Azevedo como parte do minicurso de Git & GitHub do DACOMP UFMA
+Desenvolvido pelo calouro de Ciência da Computação e Inteligência Artificial Eduardo dos Reis Azevedo como parte do minicurso de Git & GitHub do DACOMP UFMA
 
 ## Histórico:
 2315460 (HEAD -> main, origin/main) docs: Correção de alguns erros no README
@@ -61,17 +61,3 @@ a7a5e3b docs: Adicionada a estrutura inicial do readme com explicação basica d
 0a9305f Merge branch 'main' of https://github.com/DacompMiniCursos/aula-2-github-e-colabora-o-EduReiss
 a950c09 docs:salvamento de alterações locais antes do merge
 
-
-## 🎫 Fase 5: Planejamento da Issue
-*Draft da primeira Issue que você abrirá no GitHub.*
-
-**Título da Issue:** `feat: Implementar função de input`
-
-**Descrição da Issue:**
-```text
-Atualmente, o algoritmo de busca binária está implementado de forma primitiva, sem interação do usuário com o terminal
-
-**Objetivo:**
-- Adicionar uma nova versão do algoritmo que permita que o usuário inpute o elemento que deseja buscar e a lista em que deseja buscar tal elemento
-- Adicionar nessa nova versão, um código que organize essa lista de forma automática
-- Atualizar o README.md explicando as mudanças e a importância delas
