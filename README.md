@@ -51,6 +51,15 @@ E então, nas linhas 18 e 25, mude os parâmetros da função para o elemento qu
 
 Desenvolvido pelo calouro Eduardo dos Reis Azevedo como parte do minicurso de Git & GitHub do DACOMP UFMA
 
+## Histórico:
+2315460 (HEAD -> main, origin/main) docs: Correção de alguns erros no README
+abeaff9 feat: Adaptação para digitalização do usuário e atualização do README com instruções
+080f527 feat: Implementações de controle e últimos testes com o programa
+c100ba7 feat: Produção do código de busca binária
+a7a5e3b docs: Adicionada a estrutura inicial do readme com explicação basica de busca binaria
+338d8cb Primeiro commit
+0a9305f Merge branch 'main' of https://github.com/DacompMiniCursos/aula-2-github-e-colabora-o-EduReiss
+a950c09 docs:salvamento de alterações locais antes do merge
 
 
 ## 🎫 Fase 5: Planejamento da Issue
