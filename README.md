@@ -44,6 +44,8 @@ Para executar o algoritmo, execute o seguinte comando no terminal:
 ```bash
 python busca_binaria.py
 ```
+E então,
+
 
 # Autor
 

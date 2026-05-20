@@ -14,11 +14,17 @@ def busca_binaria(item, lista):
            
         elif lista[meio] > item:
             ultimo_elemento = meio - 1
-            
+    return False
            
-print(busca_binaria(8, [1, 5, 8, 9, 19, 22, 28, 29]))
 
-                   
+resultado = busca_binaria(2121, [1, 5, 8, 9, 19, 22, 28, 29])
 
-            
+if resultado:
+    print("O elemento está na lista")
+else:
+    print("O elemento NÃO está na lista")           
+
+print(busca_binaria(2121, [1, 5, 8, 9, 19, 22, 28, 29]))
+
+
         
