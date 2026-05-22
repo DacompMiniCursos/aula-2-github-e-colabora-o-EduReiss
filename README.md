@@ -44,20 +44,64 @@ Para executar o algoritmo, execute o seguinte comando no terminal:
 ```bash
 python busca_binaria.py
 ```
-E então, nas linhas 18 e 25, mude os parâmetros da função para o elemento que você deseja buscar e a lista em que deseja buscar esse elemento. Após isso, inicie o programa.
+E então:
+1. Digite o número que você deseja buscar e dê ENTER.
+2. Digite a lista em que você deseja buscar esse número (Separados por espaço) e dê ENTER.
+3. Indique se você deseja realizar outra busca, digitando s ou n e dê ENTER.
+
+# Screenshots
+## Execução do programa
+![Busca Binária em execução](screenshots/Código_funcionando_1.png)
+## Execução e finalização do programa
+![Finalização do programa](screenshots/Código_funcionando_2.png)
+
+# Contribuição
+## Deseja melhorar o projeto? Siga os passos: 
+1. Faça um **Fork** do repositório
+2. Crie um branch para sua feature (`git switch -c feature/sua-melhoria`)
+3. Faça seus commits semânticos (`git commit -m "feat: descrição"`)
+4. Envie para seu fork (`git push origin feature/sua-melhoria`)
+5. Abra um **Pull Request** descrevendo suas mudanças
+
+Obrigado por contribuir com o projeto! 
+
+# Sugestões de contribuição:
+1. Adicionar mecanismo para impedir o usuário de inserir outro tipo de input que não seja int nos elementos de número buscado e lista.
+2. Fazer controle de erros para que, caso o usuário digitar uma string ou valor não inteiro ou lista no formato incorreto ou outra letra quando perguntado se deseja continuar a buscar, o programa lhe diga como fazer da maneira certa.
+3. Introduzir Busca Linear, explicar a diferença entre Busca Linear e Busca Binária
 
 
 # Autor
 
 Desenvolvido pelo calouro de Ciência da Computação e Inteligência Artificial Eduardo dos Reis Azevedo como parte do minicurso de Git & GitHub do DACOMP UFMA
 
+# Contribuidores:
+
+## Licença
+
+Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para detalhes.
+
+A licença MIT permite:
+- ✅ Uso comercial
+- ✅ Modificação
+- ✅ Distribuição
+- ✅ Uso privado
+
+Com a condição de incluir aviso de copyright e licença.
+
 ## Histórico:
-2315460 (HEAD -> main, origin/main) docs: Correção de alguns erros no README
+dc59654 (HEAD -> main) feat: adicionada função de perguntar se o usuário deseja realizar nova busca ou encerrar o programa
+
+aa2c0d3 hotfix: Programa não funciona corretamente ao usuário simplesmente substituir os parâmetros da função pelos valores desejados. Adicionado função input para o usuário adicionar os parâmetros necessários diretamente no terminal.
+
+3bd8635 (origin/main) docs: Correção de erros no README
+
+b0a3932 "Docs: Adição de histórico log no README"
+
+2315460 docs: Correção de alguns erros no README
+
 abeaff9 feat: Adaptação para digitalização do usuário e atualização do README com instruções
+
 080f527 feat: Implementações de controle e últimos testes com o programa
-c100ba7 feat: Produção do código de busca binária
-a7a5e3b docs: Adicionada a estrutura inicial do readme com explicação basica de busca binaria
-338d8cb Primeiro commit
-0a9305f Merge branch 'main' of https://github.com/DacompMiniCursos/aula-2-github-e-colabora-o-EduReiss
-a950c09 docs:salvamento de alterações locais antes do merge
+
 
