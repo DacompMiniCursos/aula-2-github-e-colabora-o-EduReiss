@@ -1,4 +1,9 @@
-#Como funciona uma busca binária
+![Static Badge](https://img.shields.io/badge/License-MIT-orange)
+![Static Badge](https://img.shields.io/badge/Python-3.x-blue)
+![Static Badge](https://img.shields.io/badge/Status-Em_desenvolvimento-lightgreen)
+
+
+# Como funciona uma busca binária
 
 Para entender de forma prática, imagine que você está procurando a palavra "Programação" em um dicionário: 
 Você abre o livro exatamente no meio e vê a letra "M". 
